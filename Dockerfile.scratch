@@ -1,0 +1,7 @@
+FROM scratch
+
+EXPOSE 3434
+
+ADD bin/ /
+
+CMD ["/server_go"]
